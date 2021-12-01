@@ -1,4 +1,5 @@
 import TodoPage from './views/todo-page/TodoPage'
+import './App.css'
 
 function App() {
   return (

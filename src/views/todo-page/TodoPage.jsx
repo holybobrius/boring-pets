@@ -1,4 +1,5 @@
 import React from "react";
+import './TodoPage.css'
 import TasksContainer from "../../components/TasksContainer/TasksContainer";
 
 const TodoPage = () => {
@@ -37,7 +38,7 @@ const TodoPage = () => {
   ]
 
   return (
-    <div>
+    <div className='todo-page'>
       <header>
         <h1>TODO</h1>
         <h3>Basic todo list app.</h3>

@@ -1,0 +1,17 @@
+.add-task-button {
+  border: 2px solid rgb(4, 253, 4);
+  height: 30px;
+  width: 150px;
+  border-radius: 50px;
+  background-color: transparent;
+  color: rgb(4, 253, 4);
+  font-size: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: 300ms ease;
+}
+
+.add-task-button:hover {
+  background-color: rgb(4, 253, 4);
+  color: #232323;
+}
